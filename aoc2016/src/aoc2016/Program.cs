@@ -9,6 +9,16 @@ namespace aoc2016
     {
         public static void Main(string[] args)
         {
+#if DEBUG
+            day01.Solution.Run();
+#else
+            switch (args[0].ToLower())
+            {
+                case "day01":
+                    day01.Solution.Run();
+                    break;
+            }
+#endif
         }
     }
 }
