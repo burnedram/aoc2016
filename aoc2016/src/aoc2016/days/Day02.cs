@@ -71,7 +71,7 @@ namespace aoc2016.day02
 
             public Keypad(string startButton, string pad)
             {
-                string[] rows = pad.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
+                string[] rows = pad.Split(new string[] { "\n" }, StringSplitOptions.RemoveEmptyEntries);
                 _nRows = rows.Length;
                 _nCols = rows[0].Split((char[])null, StringSplitOptions.RemoveEmptyEntries).Length;
                 _pad = new string[_nCols, _nRows];
