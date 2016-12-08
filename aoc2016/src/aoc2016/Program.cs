@@ -10,7 +10,7 @@ namespace aoc2016
         public static void Main(string[] args)
         {
 #if DEBUG
-            day06.Solution.Run();
+            day07.Solution.Run();
 #else
             switch (args.FirstOrDefault()?.ToLower() ?? "")
             {
@@ -31,6 +31,9 @@ namespace aoc2016
                     break;
                 case "day06":
                     day06.Solution.Run();
+                    break;
+                case "day07":
+                    day07.Solution.Run();
                     break;
                 default:
                     Console.WriteLine("Usage: aoc2016 <day>");
