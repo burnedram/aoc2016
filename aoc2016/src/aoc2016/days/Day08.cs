@@ -26,8 +26,9 @@ namespace aoc2016.day08
             int part1 = lcd.Count(val => val);
             Console.WriteLine("==== Part 1 ====");
             Console.WriteLine($"Lit pixels: {part1}");
+            Console.WriteLine();
 
-            Console.WriteLine("==== Part 1 ====");
+            Console.WriteLine("==== Part 2 ====");
             Console.WriteLine("Read from the LCD above");
         }
 
